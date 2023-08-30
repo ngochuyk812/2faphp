@@ -1,0 +1,5 @@
+RewriteRule ^login*$ login.php [NC,L]
+RewriteRule ^signup*$ signup.php [NC,L]
+RewriteRule ^forgot*$ forgot.php [NC,L]
+RewriteRule ^note/([0-9a-zA-Z]+) create-note.php?id=$1 [NC,L]
+
